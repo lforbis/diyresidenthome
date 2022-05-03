@@ -1,0 +1,509 @@
+/* reset css applied */
+
+/* fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Gravitas+One&family=Poppins:wght@400;700&display=swap");
+
+/* general */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: linear-gradient(180deg, #f3f7f4, #527a5c);
+}
+
+/* navigation */
+
+nav {
+  color: #e5f0f0;
+  display: in-line;
+  padding: 60px;
+  width: 100%;
+  height: 70px;
+  background-color: #254141;
+}
+
+li:hover {
+  font-weight: bold;
+}
+
+.alignleft {
+  text-align: left;
+}
+
+.alignright {
+  text-align: right;
+}
+
+header,
+section {
+  min-width: 320px;
+  max-width: 1550px;
+}
+
+/* divs */
+
+.abf {
+  width: 1440px;
+  height: 928px;
+  background-image: url("https://res.cloudinary.com/lforbis79/image/upload/v1651175627/Untitled_Artwork_nejcsl.png");
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: -15px;
+}
+
+.lightblue {
+  font-family: "Poppins", sans-serif;
+  font-size: 19px;
+  font-weight: regular;
+  color: #e5f0f0;
+  text-align: center;
+}
+
+.earthday {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #d89354;
+  padding: 44px;
+  text-align: center;
+}
+
+.centerbutton {
+  text-align: center;
+  padding: 30px;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+  background-color: #d89354;
+  border: 3px solid #f3e2cd;
+}
+
+button:hover {
+  background-color: #254141;
+  border:  3px solid white;
+  color: white;
+}
+
+.info {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  color: #304659;
+  line-height: 46px;
+  text-align: center;
+  padding: 50px;
+}
+
+.geninfo {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  line-height: 46px;
+  text-align: center;
+  color: #437575;
+  padding: 30px;
+}
+
+.leftflower {
+  max-width: 502px;
+  max-height: 431px;
+  min-width: 162px;
+  min-height: 115px;
+  float: left;
+  margin: -65px;
+}
+
+.rightflower {
+  max-width: 613px;
+  max-height: 431px;
+  min-width: 106px;
+  min-height: 128px;
+  float: right;
+  margin: -65px;
+}
+
+.centerlogo {
+  text-align: center;
+}
+
+.frogdance {
+  text-align: center;
+}
+
+.bugs {
+  float: center;
+  max-width: 1440px;
+max-height:  1470px;
+min-width: 320px;
+min-height: 596px;
+
+}
+
+.flyingfarries {
+  max-width:  1440px;
+max-height: 1418px;
+min-width: 320px;
+min-height: 540px;
+  text-align: center;
+  margin: 70px;
+}
+
+.bugwalk {
+max-width: 1440px;
+max-height: 975px;
+min-width: 320px;
+min-height: 267px;
+  text-align: center;
+}
+
+.uploadform {
+max-width: 520px;
+max-height: 786px;
+min-width: 280px;
+min-height: 393px;
+  text-align: center;
+}
+
+.darkblue {
+  color: #437575;
+}
+
+.white {
+  color: white;
+}
+
+.midblue {
+  color: #3b5266;
+}
+
+.andy-container {
+max-width: 1074px;
+max-height: 684px;
+min-width: 290px; 
+min-height: 509px;
+    grid-template-columns: 25%, 25%, 25%, 25%;
+  grid-template-rows: 50%, 50%;
+  background-color: #437575;
+  margin: 45px;
+  border-radius: 44px;
+}
+
+.andyphoto {
+  float: left;
+  margin: -25px;
+  max-width: 490px;
+max-height: 549px;
+min-width: 176px;
+min-height: 195px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.andyinfo {
+  color: white;
+  margin: 29px;
+  float: right;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.franny-container {
+max-width: 1074px;
+max-height: 684px;
+min-width: 290px; 
+min-height: 509px;
+    grid-template-columns: 25%, 25%, 25%, 25%;
+  grid-template-rows: 50%, 50%;
+  background-color: #437575;
+  border-radius: 44px;
+  margin: 200px;
+}
+
+.franny-photo {
+  text-align: left;
+  max-width: 490px;
+max-height: 549px;
+min-width: 176px;
+min-height: 195px;
+    grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.franny-info {
+  color: white;
+  text-align: right;
+    grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.frank-container {
+max-width: 1074px;
+max-height: 684px;
+min-width: 290px; 
+min-height: 509px;
+  grid-template-columns: 25%, 25%, 25%, 25%;
+  grid-template-rows: 50%, 50%;
+  background-color: #437575;
+  border-radius: 44px;
+  margin: 45px;
+}
+
+.frank-photo {
+  float: left;
+  margin: -105px;
+  max-width: 490px;
+max-height: 549px;
+min-width: 176px;
+min-height: 195px;
+    grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.frank-info {
+  color: white;
+  text-align: right;
+  margin: 35px;
+    grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.residentnames {
+  font-family: "Gravitas One", cursive;
+  font-size: 45px;
+  padding: 20px;
+  color: white;
+}
+
+.pronouns {
+  color: #bdbf32;
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  padding: 25px;
+}
+
+.materials-container {
+max-width: 1320px;
+max-height: 839px;
+min-width: 296px;
+  background-color: #7db5b5;
+  border-radius: 44px;
+  display: flex;
+  flex: 25%;
+  padding: 14px;
+}
+
+.material1 {
+  width: 330px;
+  height: 839px;
+  margin: 14px;
+  line-height: 42px;
+}
+
+.material2 {
+  width: 330px;
+  height: 839px;
+  margin: 14px;
+  line-height: 42px;
+}
+
+.material3 {
+  width: 330px;
+  height: 839px;
+  margin: 14px;
+  line-height: 62px;
+}
+
+.material4 {
+  width: 330px;
+  height: 839px;
+  margin: 14px;
+  line-height: 62px;
+}
+
+.instructions-container {
+ max-width: 1336px;
+max-height: 2200px;
+min-width: 292px;
+min-height: 2200px;
+  background-color: #b1d2d2;
+  display: flex;
+  float: center;
+  flex-wrap: wrap;
+  padding: 71px;
+}
+
+.instruction1 {
+  width: 445.33px;
+  height: 746px;
+  text-align: center;
+  line-height: 75px;
+}
+
+.instruction2 {
+  width: 445.33px;
+  height: 746px;
+  text-align: center;
+  line-height: 75px;
+}
+
+.instruction3 {
+  width: 445.33px;
+  height: 746px;
+  text-align: center;
+  line-height: 75px;
+}
+
+.instruction4 {
+  width: 445.33px;
+  height: 746px;
+  text-align: center;
+  line-height: 75px;
+}
+
+.instruction5 {
+  width: 445.33px;
+  height: 746px;
+  text-align: center;
+  line-height: 75px;
+}
+
+.instruction6 {
+  width: 445.33px;
+  height: 746px;
+  text-align: center;
+  line-height: 75px;
+}
+
+.homtext {
+  color: white;
+  font-family: "Gravitas One", cursive;
+  font-size: 45px;
+  text-align: center;
+  padding: 25px;
+}
+
+.homeofthemonth-container {
+  max-width: 1155px;
+max-height: 596px;
+min-width: 296px;
+min-height: 938px;
+  font-size: 25px;
+  background-color: #e5f0f0;
+  border-radius: 44px;
+  display: flex;
+  padding: 71px;
+}
+
+.andyhom {
+  max-width: 301px;
+max-height: 359px;
+min-width: 126px;
+min-height: 162px;
+  float: left;
+  margin: 30px;
+}
+
+.frannyhom {
+  max-width: 301px;
+max-height: 359px;
+min-width: 126px;
+min-height: 162px;
+  float: center;
+  margin: 30px;
+}
+
+.frankhom {
+  max-width: 301px;
+max-height: 359px;
+min-width: 126px;
+min-height: 162px;
+  float: right;
+  margin: 30px;
+}
+
+.upload {
+  max-width: 1440px;
+  max-height: 1380px;
+}
+
+footer {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  line-height: 55px;
+  color: #437575;
+  margin: 35px;
+  padding: 35px;
+}
+
+.footer-wrapper {
+  width: 1440px;
+  height: 264px;
+  background-color: #d1dfd6;
+}
+
+h1 {
+  font-family: "Gravitas One", cursive;
+  font-size: 55px;
+  color: #437575;
+  line-height: 90px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Gravitas One", cursive;
+  font-size: 45px;
+  line-height: 90px;
+  text-align: center;
+  padding: 25px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 30px;
+  line-height: 60px;
+    font-weight: bold;
+  color: #304659;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+ line-height: 46px;
+}
+
+li {
+  margin-right: 55px;
+  display: inline;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  color: #e5f0f0;
+}
+
+a {
+  text-decoration: none;
+  display: inline;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  line-height: 42px;
+  color: #e5f0f0;
+}
